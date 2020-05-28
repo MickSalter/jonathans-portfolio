@@ -1,0 +1,178 @@
+/***** BASE STYLES *****/
+
+.entire-website {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	background: black;
+}	
+
+img {
+max-width: 100%;
+}
+
+/***** GRID *****/
+
+.full-width {
+    	width: 1200px;
+        margin: 0 auto;
+    	overflow: auto;	
+}
+.half-width {
+        width: 600px;
+        float: left;
+}
+.third-width {
+        width: 400px;
+        float: left;
+}
+
+/***** HEADER *****/
+
+#header {
+	
+	background: url('../img/hero-			background.png');
+	background-size: cover;
+	padding: 0;
+	height: 700px;
+}
+
+header h1 { 
+        padding: 65px 0 65px 25px;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 64pt;
+        color: #ffffff;
+}
+#header h2 {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 24pt;
+}	
+
+nav {
+        float: right; 
+        padding: 0;
+}
+
+nav ul li{
+        display: inline-block;
+}
+
+nav ul li a {
+	color: #ffffff;
+	font-size: 24pt;
+	padding-left: 60px;
+	text-decoration: none;
+}
+
+header h1 span {
+	color: #fa0075;
+}
+
+/***** ABOUT *****/
+
+#about {
+	
+	background: url('../img/about-me.png');
+	background-size: cover;
+}
+
+#about 	.half-width {
+	padding: 0px;
+	height: 550px;
+}
+
+#about h2 {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 36pt;
+	padding: 20px;
+	text-align: center;
+	color: #fa0075;
+}
+
+#about p {
+	font-size: 15pt;
+        color: #1f202b;
+        line-height: 27px;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+/*****WORK*****/
+
+
+#work h2 {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 36pt;
+	color: #fa0075;
+	text-align: center;
+	padding: 50px 0 50px 0;
+}
+
+#work h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24pt;
+	color: #ffffff;
+	margin-top: 20px;
+	padding: 0 50px 0 50px;
+}
+
+#work p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24pt;
+	padding: 0 50px 0 50px;
+}
+	
+#top-left {
+	 float: left;
+}
+
+#top-right {
+	float: right;
+	text-align: left;
+}
+
+#mid-left {	
+	float: left;
+	text-align: right;
+}
+
+#mid-right {
+	float: right;
+}
+
+#bottom-left {
+	float: left;
+}
+
+#bottom-right {
+	float: right;
+	text-align: left;
+}
+
+/*****CONTACT*****/
+
+#contact .full-width {
+	text-align: center;
+	height: 400px:
+}
+
+#contact h2 {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 36pt;
+	text-align: center;
+	color: #fa0075;
+}
+
+#contact p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15pt;
+	text-align: center;
+}
+
+#contact ul {
+        list-style: none;
+}
+
+#contact ul li {
+        display: inline-block;
+        padding: 20px;	
+}
