@@ -20,6 +20,7 @@ max-width: 100%;
 .half-width {
         width: 600px;
         float: left;
+	overflow: auto;
 }
 .third-width {
         width: 400px;
